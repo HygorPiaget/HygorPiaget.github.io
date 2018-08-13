@@ -1,0 +1,62 @@
+primeiro explicar motivacao
+
+
+resolver o caso simples de uma reta [0,1] com [0,0.5] de uma cor 
+e mostrar que a probabilidade melhora a medida que o prof vai mais 
+vezes olhar. Mas o erro decresce com 1/N^0.5, o que e muito lento. 
+Sera que existe metodo melhor?
+
+segunda parte, ao invez de olhar varias vezes em um dia, o professor decide 
+olhar varios dias apenas uma vez. Desse jeito é melhor? esse caso é o anterios 
+mas com replecement. Igual a colocar novamente a bola no saco.
+
+
+
+I have studied the manuscript "Clout, Activists and Budget: The Road to Presidency" by Lucas Böttcher
+and coauthors. Here the authors propose a new model where the complex interplay between activistis, 
+political clout, and campaign costs are used in order to explain the campaign result. They start 
+by defing the model for a complex network and then derive the equations for a mean-field approximation.
+The authors studied the role of each parameter and finaly apply the model for the pool data of the US 
+presidential election 2016.  
+
+In summary, I find the results very interesting, and I believe that this paper can be published if the authors consider the following comments.
+
+1) In page 3 I would like to see a reference about the statement: "Money matters in campaigns. The 
+benefit of campaign expenditures is positive, but typically low and subject to rapid decay."
+
+2) In page 4 I believe that in the definitions of the fractions $a$, $b$, and $o$ the latters 
+$A$, $B$, and $O$ should be $N$.
+
+3) The authors used a random regular network with fixed degree. I wonder ...
+
+
+4) I like the model but my main criticism of the manuscript is about the application of the model on real elections.
+ 
+	4.1) A large fraction of the literature of statistical mechanics is applied at legislative 
+			 elections. I wonder how to apply the authors model for a election with a large number of 
+       candidates. Even for a thirt party candidate I don't see a simple way to find the entire 
+			 number of parameters required by the model.   
+
+  4.2) The authors claim that the model could explain the 2016 US presidencial election. 
+				More precisely they claim that the Trump election was a consequence of a high convincing 
+				probability ($\rho_B > \rho_A$). At this point I ask the author to please let clear the 
+				value of $\rho_B$ at the main text and in Fig. 5 caption, I only find at Fig. 4 caption.  
+				This is a strong claim, unfortunatly the nice agrement with the election in Fig. 5 is 
+				only obtened by heuristicaly ajusting the unique parameter that can not be measuramed.
+
+	4.3) I wonder the real importance of three parameters. It seems that the convincing probability
+				$\rho$ can be interchanged by the activistis. The model validation seems to be quite sencible 
+			 for changes in the parameters values, so how can the authors suport the choose of $a^{+}=0.175$
+			 and $b^{+}=0.1$ since there is a believe that the Trump supporters were not captured by 
+			the polls, that why they call theyselfs "the silence majority". I would like to see 
+			if the authors can get the same result of Fig. 5 keeping the convincing probabilities 
+			the same for both candidates, but now changing $a^+$ and $b^+$.   
+
+
+
+
+ 
+
+
+
+

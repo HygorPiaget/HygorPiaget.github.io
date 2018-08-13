@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hygor Piaget - Pics</title><link href="http://hygorpiaget.com/" rel="alternate"></link><link href="http://hygorpiaget.com/feeds/pics.atom.xml" rel="self"></link><id>http://hygorpiaget.com/</id><updated>2010-12-03T10:20:00+01:00</updated><entry><title>Pics</title><link href="http://hygorpiaget.com/pics.html" rel="alternate"></link><published>2010-12-03T10:20:00+01:00</published><updated>2010-12-03T10:20:00+01:00</updated><author><name>Hygor Piaget</name></author><id>tag:hygorpiaget.com,2010-12-03:/pics.html</id><summary type="html">&lt;p&gt;&lt;img src="/images/Lola_e_Marianna.jpg" style="width: 300px;"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/Defesa.jpg" style="width: 500px;"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/Fusca.jpg" style="width: 300px;"/&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img src="/images/Lola_e_Marianna.jpg" style="width: 300px;"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/Defesa.jpg" style="width: 500px;"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/Fusca.jpg" style="width: 300px;"/&gt;&lt;/p&gt;</content></entry></feed>

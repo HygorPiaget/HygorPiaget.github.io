@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hygor Piaget - About</title><link href="http://hygorpiaget.com/" rel="alternate"></link><link href="http://hygorpiaget.com/feeds/about.atom.xml" rel="self"></link><id>http://hygorpiaget.com/</id><updated>2010-12-03T10:20:00+01:00</updated><entry><title>About me</title><link href="http://hygorpiaget.com/about-me.html" rel="alternate"></link><published>2010-12-03T10:20:00+01:00</published><updated>2010-12-03T10:20:00+01:00</updated><author><name>Hygor Piaget</name></author><id>tag:hygorpiaget.com,2010-12-03:/about-me.html</id><summary type="html">&lt;!--![teste]({filename}/images/Lola.jpg)--&gt;
+
+&lt;!--&lt;img class="img-circle" src="/images/Me.jpeg" style="width: 200px;"/&gt;--&gt;
+
+&lt;style&gt;
+    .round {
+        border-radius: 10%;
+        overflow: hidden;
+        width: 250px;
+        height: 250px;
+    }
+    .round img {
+        display: block;
+     Stretch 
+          height: 80%;
+          width: 80%; 
+    min-width: 80%;
+    min-height: 80%;
+    }
+&lt;/style&gt;
+
+&lt;div class="round"&gt;
+   &lt;img src="/images/Me.jpeg" /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I graduated in Physics from the Federal University of Ceará (2009), where I also obtained my Master's degree in Physics in 2011 and my Ph.D. in 2016 …&lt;/p&gt;</summary><content type="html">&lt;!--![teste]({filename}/images/Lola.jpg)--&gt;
+
+&lt;!--&lt;img class="img-circle" src="/images/Me.jpeg" style="width: 200px;"/&gt;--&gt;
+
+&lt;style&gt;
+    .round {
+        border-radius: 10%;
+        overflow: hidden;
+        width: 250px;
+        height: 250px;
+    }
+    .round img {
+        display: block;
+     Stretch 
+          height: 80%;
+          width: 80%; 
+    min-width: 80%;
+    min-height: 80%;
+    }
+&lt;/style&gt;
+
+&lt;div class="round"&gt;
+   &lt;img src="/images/Me.jpeg" /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I graduated in Physics from the Federal University of Ceará (2009), where I also obtained my Master's degree in Physics in 2011 and my Ph.D. in 2016. I am currently a Professor at the Federal Institute of Ceará on the &lt;a href="http://www.ifce.edu.br/acarau"&gt;Acaraú&lt;/a&gt; campus. My main areas of activity are Genetic Algorithm, Laws of scale and allometry of cities, Elections and Economy.&lt;/p&gt;
+&lt;p&gt;I live with my wife Marianna and our dog Lola. I have a great interest in politics, which of course has already given me innumerable enmities. I'm a great video expert on YouTube, and a compusive procastinor in treatment.&lt;/p&gt;
+&lt;!--Sou graduado em Física pela Universidade Federal do Ceará (2009), onde também obtive meu mestrado em Física em 2011 e meu doutorado--&gt;
+
+&lt;!--em 2016. Atualmente sou Professor do Instituto Federal do Ceará no campus de [Acaraú](http://www.ifce.edu.br/acarau). Minhas principais--&gt;
+
+&lt;!--áreas de atuação são Algoritmo Génetico, Leis de escala e alometria de cidades, Eleições e Economia.--&gt;
+
+&lt;!--Possui graduação em Bacharelado em Física pela Universidade Federal do Ceará(2009), mestrado em Física pela Universidade Federal do Ceará(2011) e doutorado em Física pela Universidade Federal do Ceará(2016). Atualmente é Professor do Instituto Federal do Ceará. Atuando principalmente nos seguintes temas:Scaling, Social Physics, Allometry, Elections, Economy.--&gt;
+
+&lt;!--Durante o mestrado e o doutorado meus trabalhos seguiram duas áreas principais: Algoritmo Genético aplicado --&gt;
+
+&lt;!--na modelagem de tomada de decisão e o estudo de relações de escala alométricas em métricas urbanas. Apesar --&gt;
+
+&lt;!--das diferenças entre os dois projetos, ambos são subáreas de sistemas complexos. Podemos ver a ciência --&gt;
+
+&lt;!--complexa como um estudo de sistemas com um grande número de elementos e um arranjo complexo de interações --&gt;
+
+&lt;!--entre esses elementos. Se olharmos para a sociedade humana deste ponto de vista, apesar de toda a complexidade--&gt;
+
+&lt;!-- das interações humanas, o comportamento em larga escala parece ser independente das características sociais--&gt;
+
+&lt;!-- individuais, o que nos permitindo usar as mesmas técnicas aplicadas para o estudo de sistemas compostos por um --&gt;
+
+&lt;!--enorme número de átomos ou moléculas. Portanto, a sociedade humana é um dos melhores exemplos de --&gt;
+
+&lt;!--sistemas complexos e é o foco principal da minha pesquisa atual e futura.--&gt;
+
+&lt;!--Vivo com minha esposa Marianna e nossa cachorra Lola. Tenho um grande interesse por política, o que naturalmente já me--&gt;
+
+&lt;!--rendeu inúmeras inimizades. Sou um grande especialista em vídeos do YouTube, e um procastinador compusivo em tratamento.--&gt;
+
+&lt;!--During my Masters and Doctorate my works follows two main areas: Genetic Algorithm apply on decision modeling--&gt;
+
+&lt;!--and allometric scaling in urban metrics. Despite the differences between the two projects, both of them are subareas--&gt;
+
+&lt;!--of complex science. We can see complex science as a study of systems with a huge number of elements and a complex--&gt;
+
+&lt;!--arrangement of interactions between these elements. If we look the human society by this point of view, despite--&gt;
+
+&lt;!--of all complexity of the human interactions the large-scale behavior seems to be independent of individual social--&gt;
+
+&lt;!--characteristics allowing us to use the same techniques applied for the study of systems composed by a huge number--&gt;
+
+&lt;!--of atoms or molecules [1]. Based on this, human society is one of the best examples of a complex systems and is the--&gt;
+
+&lt;!--main focus of my current and future research.--&gt;
+
+&lt;!--I live with my wife Marianna and our dog Lola. I have a large interest in politics, which naturally gave me a large number --&gt;
+
+&lt;!--of enemys. I am a huge specialist in YouTube videos, and a compusive procastinator but in treatment. --&gt;</content></entry></feed>
