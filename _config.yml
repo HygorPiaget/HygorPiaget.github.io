@@ -109,7 +109,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:hygor@fisica.ufc.br
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -290,7 +290,7 @@ defaults:
       related: true
 
   # _pages
-  - scape:
+  - scope:
       path: ""
       type: pages
     values:
