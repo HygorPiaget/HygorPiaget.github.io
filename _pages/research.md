@@ -1,11 +1,11 @@
----
-layout: archive
-permalink: /research/
-title: "Research"
-author_profile: true
-header:
-  image: "images/Defesa.jpg"
----
+<!------->
+<!--layout: archive-->
+<!--permalink: /research/-->
+<!--title: "Research"-->
+<!--author_profile: true-->
+<!--header:-->
+<!--  image: "images/Defesa.jpg"-->
+<!------->
 
 
 <!--{% include base_path %}-->
