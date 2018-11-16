@@ -1,6 +1,7 @@
+---
 title: "Publications"
 permalink: /publications/
-
+---
 
 <!--Durante o mestrado e o doutorado meus trabalhos seguiram duas áreas principais: Algoritmo Genético aplicado -->
 <!--na modelagem de tomada de decisão e o estudo de relações de escala alométricas em métricas urbanas. Apesar -->
