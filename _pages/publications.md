@@ -27,7 +27,7 @@ arrangement of interactions between these elements.
 
 
 
-* Caio Ponte, Hygor Piaget M Melo, Carlos Caminha, José S Andrade Jr, Vasco Furtado [Traveling heterogeneity in public transportation.] (https://link.springer.com/article/10.1140/epjds/s13688-018-0172-6) EPJ Data Science 7.1 (2018): 42. 
+* Caio Ponte, Hygor Piaget M Melo, Carlos Caminha, José S Andrade Jr, Vasco Furtado [Traveling heterogeneity in public transportatio](https://link.springer.com/article/10.1140/epjds/s13688-018-0172-6) EPJ Data Science 7.1 (2018): 42. 
 
 * Hygor Piaget M Melo, N A M Araújo, J S Andrade Jr [Fundraising and vote distribution: a non-equilibrium statistical approach](https://arxiv.org/abs/1810.01936) arXiv preprint arXiv:1810.01936 (2018).
 
