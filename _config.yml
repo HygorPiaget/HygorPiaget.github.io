@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Hygor Piaget"
-  avatar           : "/images/Me.jpeg" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Me1.jpg" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Physicist and Data Scientist"
   location         : "Fortaleza, BR"
   email            :
