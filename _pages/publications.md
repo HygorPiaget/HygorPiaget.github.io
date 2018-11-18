@@ -16,8 +16,10 @@ permalink: /publications/
 
 During my Masters and Doctorate my works follows two main areas: Genetic Algorithm apply on decision modeling
 and allometric scaling in urban metrics. Despite the differences between the two projects, both of them are subareas
-of complex science. We can see complex science as a study of systems with a huge number of elements and a complex
-arrangement of interactions between these elements. 
+of complex science.
+
+<!-- We can see complex science as a study of systems with a huge number of elements and a complex-->
+<!--arrangement of interactions between these elements. -->
 
 <!--If we look the human society by this point of view, despite-->
 <!--of all complexity of the human interactions the large-scale behavior seems to be independent of individual social-->
