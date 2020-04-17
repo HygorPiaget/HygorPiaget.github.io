@@ -3,48 +3,170 @@ title: "Mobilidade"
 permalink: /mobilidade/
 ---
 
-<!--Durante o mestrado e o doutorado meus trabalhos seguiram duas áreas principais: Algoritmo Genético aplicado -->
-<!--na modelagem de tomada de decisão e o estudo de relações de escala alométricas em métricas urbanas. Apesar -->
-<!--das diferenças entre os dois projetos, ambos são subáreas de sistemas complexos. Podemos ver a ciência -->
-<!--complexa como um estudo de sistemas com um grande número de elementos e um arranjo complexo de interações -->
-<!--entre esses elementos. Se olharmos para a sociedade humana deste ponto de vista, apesar de toda a complexidade-->
-<!-- das interações humanas, o comportamento em larga escala parece ser independente das características sociais-->
-<!-- individuais, o que nos permitindo usar as mesmas técnicas aplicadas para o estudo de sistemas compostos por um -->
-<!--enorme número de átomos ou moléculas. Portanto, a sociedade humana é um dos melhores exemplos de -->
-<!--sistemas complexos e é o foco principal da minha pesquisa atual e futura.-->
+
+<!DOCTYPE html>
+
+<html><link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+	<title>Leaflet Layers Control Example</title>
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
 
 
-During my Masters and Doctorate my works follows two main areas: Genetic Algorithm apply on decision modeling
-and allometric scaling in urban metrics. Despite the differences between the two projects, both of them are subareas
-of complex science.
+<style>	#mapid { width: 60%;
+						height: 700px; 
+			} 
 
-<!-- We can see complex science as a study of systems with a huge number of elements and a complex-->
-<!--arrangement of interactions between these elements. -->
+	.info {
+		 padding: 6px 8px;
+		 font: 14px/16px Arial, Helvetica, sans-serif;
+		 background: white;
+		 background: rgba(255,255,255,0.8);
+		 box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		 border-radius: 5px;
+	}
+	.info h4 {
+		 margin: 0 0 5px;
+		 color: #777;
+	}
 
-<!--If we look the human society by this point of view, despite-->
-<!--of all complexity of the human interactions the large-scale behavior seems to be independent of individual social-->
-<!--characteristics allowing us to use the same techniques applied for the study of systems composed by a huge number-->
-<!--of atoms or molecules [1]. Based on this, human society is one of the best examples of a complex systems and is the-->
-<!--main focus of my current and future research.-->
+	.legend {
+		 line-height: 18px;
+		 color: #555;
+	}
+	.legend i {
+		 width: 18px;
+		 height: 18px;
+		 float: left;
+		 margin-right: 8px;
+		 opacity: 0.7;
+	}
+
+</style>
+
+<div id="mapid"></div>
 
 
-
-* Caio Ponte, Hygor Piaget M Melo, Carlos Caminha, José S Andrade Jr, Vasco Furtado [Traveling heterogeneity in public transportatio](https://link.springer.com/article/10.1140/epjds/s13688-018-0172-6) EPJ Data Science 7.1 (2018): 42. 
-
-* Hygor Piaget M Melo, N A M Araújo, J S Andrade Jr [Fundraising and vote distribution: a non-equilibrium statistical approach](https://arxiv.org/abs/1810.01936) arXiv preprint arXiv:1810.01936 (2018).
-
-* Hygor Piaget M Melo, Saulo DS Reis, André A Moreira, Hernán A Makse, José S Andrade Jr [The price of a vote: Diseconomy in proportional elections](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201654) PloS one 13.8 (2018): e0201654.
+	<script type="text/javascript" src="./teste_mapa.js"></script>
+	<script type="text/javascript" src="riskpt.js"></script> 
+<!--	<script type="text/javascript" src="map_load.js"></script>-->
+	<script type="text/javascript">
 
 
-* Carlos Caminha, Vasco Furtado, Tarcisio H. C. Pequeno, Caio Ponte, Hygor Piaget M. Melo, Erneson A Oliveira, José S Andrade Jr [Human Mobility in Large Cities as a Proxy for Crime](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171609)]  PloS one 12.2 (2017): e0171609.
+	var geojson;
+
+	var mymap = L.map('mapid').setView([39.961009, -8.143740], 6.5);
+	var mapboxAccessToken = 'pk.eyJ1IjoiaHlnb3JwaWFnZXQiLCJhIjoiY2s4bHNyNzk0MDlhYzNvbzJ0d203NmZsdiJ9.RlmzkWL4eZ-eKiDBTCEQmQ';
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token='+ mapboxAccessToken, {
+		 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		 maxZoom: 18,
+		 id: 'mapbox/light-v9',
+		 tileSize: 512,
+		 zoomOffset: -1,
+		 accessToken: 'your.mapbox.access.token'
+	}).addTo(mymap);
 
 
-* Hygor Piaget M Melo, André A Moreira, Élcio Batista, Hernán A Makse, José S Andrade [Statistical signs of social influence on suicides](https://www.nature.com/articles/srep06239) Scientific reports 4 (2014): 6239.
+	function getColor(d) {
+		 return d > 30 ? '#800026' :
+		        d > 20  ? '#BD0026' :
+		        d > 10  ? '#E31A1C' :
+		        d > 0  ? '#FC4E2A' :
+		        d > -10   ? '#FD8D3C' :
+		        d > -20   ? '#FEB24C' :
+		        d > -50   ? '#FED976' :
+		                   '#FFEDA0';
+	}
 
-* Hygor Piaget M Melo, Alexander Franks, André A Moreira, Daniel Diermeier, José S Andrade Jr, Luís A Nunes Amaral [A Solution to the Challenge of Optimization on ''Golf-Course''-Like Fitness Landscapes](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078401) PloS one 8.11 (2013): e78401.
+	function style(feature) {
+		 return {
+		     fillColor: getColor(feature.properties.Mobilidade),
+		     weight: 1,
+		     opacity: 0.2,
+		     color: 'black',
+		     dashArray: '3',
+		     fillOpacity: 0.7
+		 };
+	}
+
+	function highlightFeature(e) {
+		 var layer = e.target;
+
+		 layer.setStyle({
+		     weight: 2,
+		     color: 'black',
+		     dashArray: '',
+		     fillOpacity: 1.0
+		 });
+		 if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+		     layer.bringToFront();
+		 }
+	    info.update(layer.feature.properties);
+
+	}
+	function resetHighlight(e) {
+	    geojson.resetStyle(e.target);
+	    info.update();
+
+	}
+	function zoomToFeature(e) {
+		 map.fitBounds(e.target.getBounds());
+	}
+
+	function onEachFeature(feature, layer) {
+		 layer.on({
+		     mouseover: highlightFeature,
+		     mouseout: resetHighlight,
+		     click: zoomToFeature
+		 });
+	}
 
 
-* Hygor Piaget M Melo, Eric JR Parteli, José S Andrade Jr, Hans J Herrmann [Linear stability analysis of transverse dunes.](http://www.sciencedirect.com/science/article/pii/S037843711200413X) Physica A: Statistical Mechanics and its Applications 391.20 (2012): 4606-4614.
+	var info = L.control();
+
+	info.onAdd = function (mymap) {
+		 this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+		 this.update();
+		 return this._div;
+	};
+
+	// method that we will use to update the control based on feature properties passed
+	info.update = function (props) {
+		 this._div.innerHTML = '<h4>Mobilidade Concelho</h4>' +  (props ?
+		     '<b>' + props.NAME_2 + '</b><br />' + props.Mobilidade + '%'
+		     : 'Passe o cursor sobre um concelho');
+	};
+
+	info.addTo(mymap);
 
 
+	var legend = L.control({position: 'bottomright'});
 
+	legend.onAdd = function (mymap) {
+
+		 var div = L.DomUtil.create('div', 'info legend'),
+		     grades = [-100, -50, -20, -10, 0., 10, 20, 30],
+		     labels = [];
+
+		 // loop through our density intervals and generate a label with a colored square for each interval
+		 for (var i = 0; i < grades.length; i++) {
+		     div.innerHTML +=
+		         '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+		         grades[i] + (grades[i + 1] ? ' &ndash; ' + grades[i + 1] + '<br>' : '+');
+		 }
+
+		 return div;
+	};
+
+	legend.addTo(mymap);
+
+	geojson = L.geoJson(statesData, {
+		 style: style,
+		 onEachFeature: onEachFeature
+	}).addTo(mymap);
+
+
+	</script>
+</html>
