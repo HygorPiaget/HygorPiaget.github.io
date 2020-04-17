@@ -49,9 +49,7 @@ permalink: /mobilidade/
 <div id="mapid"></div>
 
 
-	<script type="text/javascript" src="./teste_mapa.js"></script>
-	<script type="text/javascript" src="riskpt.js"></script> 
-<!--	<script type="text/javascript" src="map_load.js"></script>-->
+	<script type="text/javascript" src="_pages/teste_mapa.js"></script>
 	<script type="text/javascript">
 
 
