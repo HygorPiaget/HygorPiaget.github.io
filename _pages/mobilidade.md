@@ -48,8 +48,8 @@ layout: single
 <div id="mapid"></div>
 
 
-	<script type="text/javascript" src="teste_mapa.js"></script>
 	<script type="text/javascript">
+	<script type="text/javascript" src="teste_mapa.js"></script>
 
 
 	var geojson;
