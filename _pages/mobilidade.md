@@ -15,7 +15,7 @@ permalink: /mobilidade/
    crossorigin=""></script>
 
 
-<style>	#mapid { width: 60%;
+<style>	#mapid { width: 100%;
 						height: 700px; 
 			} 
 
