@@ -1,6 +1,6 @@
 ---
-title: "Publications"
-permalink: /publications/
+title: "Mobilidade"
+permalink: /mobilidade/
 ---
 
 <!--Durante o mestrado e o doutorado meus trabalhos seguiram duas áreas principais: Algoritmo Genético aplicado -->
