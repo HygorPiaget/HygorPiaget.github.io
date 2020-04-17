@@ -48,7 +48,7 @@ layout: single
 <div id="mapid"></div>
 
 
-	<script type="text/javascript" src="_pages/teste_mapa.js"></script>
+	<script type="text/javascript" src="js/teste_mapa.js"></script>
 	<script type="text/javascript">
 
 
