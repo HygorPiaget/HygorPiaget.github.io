@@ -28,10 +28,17 @@ of complex science.
 <!--main focus of my current and future research.-->
 
 
+* Hygor Piaget M Melo, T Verma, J E Henriques, R P Carvalho, J P da Cruz, N A M Araújo [Heterogeneous impact of a lockdown on inter-municipality mobility](https://arxiv.org/abs/2006.15724) arXiv:2006.15724 (2020).
+
+
+* Hygor Piaget M Melo, C S Dias, N A M Araújo [Optimal Number of Faces for Fast Self-Folding Kirigami](https://www.nature.com/articles/s42005-020-00423-0) Commun Phys 3, (2020): 154.
+
+
+* Hygor Piaget M Melo, N A M Araújo, J S Andrade Jr [Fundraising and vote distribution: a non-equilibrium statistical approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223059) PloS one 14.10, (2019): e0223059.
+
 
 * Caio Ponte, Hygor Piaget M Melo, Carlos Caminha, José S Andrade Jr, Vasco Furtado [Traveling heterogeneity in public transportatio](https://link.springer.com/article/10.1140/epjds/s13688-018-0172-6) EPJ Data Science 7.1 (2018): 42. 
 
-* Hygor Piaget M Melo, N A M Araújo, J S Andrade Jr [Fundraising and vote distribution: a non-equilibrium statistical approach](https://arxiv.org/abs/1810.01936) arXiv preprint arXiv:1810.01936 (2018).
 
 * Hygor Piaget M Melo, Saulo DS Reis, André A Moreira, Hernán A Makse, José S Andrade Jr [The price of a vote: Diseconomy in proportional elections](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201654) PloS one 13.8 (2018): e0201654.
 
