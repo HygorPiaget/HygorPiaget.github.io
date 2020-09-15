@@ -6,7 +6,7 @@ header:
 ---
 
 I graduated in Physics from the Federal University of Ceará (2009), where I also obtained my Master's degree in Physics in 2011 and my Ph.D. in 2016. I am 
-currently a postdoctoral researcher at [CFTC](http://cftc.fc.ul.pt/membro.php?username=piaget) studing the collective dynamics of cells on substrate. My main areas of interest are non-equilibrium statistical mechanics and computational social science. 
+currently a postdoctoral researcher at [CFTC](http://cftc.fc.ul.pt/membro.php?username=piaget) studying the collective dynamics of cells on substrates. My main areas of interest are non-equilibrium statistical mechanics and computational social science. 
 
 <!--currently an Assistant Professor and Director of Research and Innovation at the Federal Institute of Ceará on the [Acaraú](http://www.ifce.edu.br/acarau) campus. My main areas of interest are Statistical Mechanics and Computational Social Science. 
 I am currently investigating the impact of money invested on political campaigns by the candidates on the final result of the election.-->
