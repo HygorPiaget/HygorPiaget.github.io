@@ -28,8 +28,17 @@ of complex science.
 <!--main focus of my current and future research.-->
 
 
-* Hygor Piaget M Melo, T Verma, J E Henriques, R P Carvalho, J P da Cruz, N A M Araújo [Heterogeneous impact of a lockdown on inter-municipality mobility](https://arxiv.org/abs/2006.15724) arXiv:2006.15724 (2020).
+* Hygor Piaget M Melo, F R Maia, A S Nunes, R L Reis, J M Oliveira, N A M Araújo [Combining experiments and in silico modeling to infer the role of adhesion and proliferation on the collective dynamics of cells](https://doi.org/10.1038/s41598-021-99390-x),  Scientific Reports 11, 19894 (2021).
 
+
+* Hygor Piaget M Melo, T Verma, J E Henriques, R P Carvalho, J P da Cruz, N A M Araújo [Heterogeneous impact of a lockdown on inter-municipality mobility](https://doi.org/10.1103/PhysRevResearch.3.013032) Physical Review Research 3, 013032 (2021).
+
+
+* T S A N Simões, Hygor Piaget M Melo, N A M Araújo [Lattice model for self-folding at the microscale](https://doi.org/10.1140/epje/s10189-021-00056-3),  The European Physical Journal E 44, 46 (2021).
+
+* Hygor P M Melo, Diogo P Mota, José S Andrade Jr, Nuno A M Araújo [The impact of one-way streets on the asymmetry of the shortest commuting routes](https://arxiv.org/abs/2111.07434), arXiv (2021).
+
+*  Gabriel L Maia, Caio Ponte, Carlos Caminha, Lara Furtado, Hygor P M Melo [Vasco Furtado The ubiquitous efficiency of going further: how street networks affect travel speed](https://arxiv.org/abs/2111.07801), arXiv (2021).
 
 * Hygor Piaget M Melo, C S Dias, N A M Araújo [Optimal Number of Faces for Fast Self-Folding Kirigami](https://www.nature.com/articles/s42005-020-00423-0) Commun Phys 3, (2020): 154.
 
