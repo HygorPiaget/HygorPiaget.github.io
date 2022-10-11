@@ -27,6 +27,9 @@ of complex science.
 <!--of atoms or molecules [1]. Based on this, human society is one of the best examples of a complex systems and is the-->
 <!--main focus of my current and future research.-->
 
+* Hygor Piaget M Melo, D P Mota, J S Andrade Jr, N A M Araújo [Impact of one-way streets on the asymmetry of the shortest commuting routes](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.023053), Physical Review Research 4, 023053 (2022).
+
+* F M R Safara, Hygor Piaget M Melo, M M T da Gama, N A M Araújo [Model for active particles confined in a two-state micropattern](https://pubs.rsc.org/en/content/articlelanding/2022/sm/d2sm00616b/unauth), Soft Matter 18, 5699 (2022).
 
 * Hygor Piaget M Melo, F R Maia, A S Nunes, R L Reis, J M Oliveira, N A M Araújo [Combining experiments and in silico modeling to infer the role of adhesion and proliferation on the collective dynamics of cells](https://doi.org/10.1038/s41598-021-99390-x),  Scientific Reports 11, 19894 (2021).
 
@@ -38,7 +41,7 @@ of complex science.
 
 * Hygor P M Melo, Diogo P Mota, José S Andrade Jr, Nuno A M Araújo [The impact of one-way streets on the asymmetry of the shortest commuting routes](https://arxiv.org/abs/2111.07434), arXiv (2021).
 
-*  Gabriel L Maia, Caio Ponte, Carlos Caminha, Lara Furtado, Hygor P M Melo [Vasco Furtado The ubiquitous efficiency of going further: how street networks affect travel speed](https://arxiv.org/abs/2111.07801), arXiv (2021).
+*  Gabriel L Maia, Caio Ponte, Carlos Caminha, Lara Furtado, Hygor P M Melo, Vasco Furtado [ The ubiquitous efficiency of going further: how street networks affect travel speed](https://arxiv.org/abs/2111.07801), arXiv (2021).
 
 * Hygor Piaget M Melo, C S Dias, N A M Araújo [Optimal Number of Faces for Fast Self-Folding Kirigami](https://www.nature.com/articles/s42005-020-00423-0) Commun Phys 3, (2020): 154.
 
