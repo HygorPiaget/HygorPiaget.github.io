@@ -1,0 +1,23 @@
+body {
+  background-color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How a simple urn game teaches us about elections and consensus</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>How a simple urn game teaches us about elections and consensus</h1>
+    <nav>
+      <a href="blog.html">Back to Blog</a>
+    </nav>
+    <hr />
+
+    <p>Suppose a game for you and another player, where in the beginning you receive \$80 and the other player \$20. The objective is simple – you have 100 candy bars to buy and you want to buy as many as possible more than your friend. But there are three rules:</p>
+
+    <ol>
+      <li>Each time step, both players need to try to buy a candy bar, and you have to play until you spend all your money.</li>
+      <li>In order to try to buy one candy bar you need to spend \(\Delta m\).</li>
+      <li>You can’t choose the candy bar. You can only pick one randomly at each time step and if that bar has already been chosen before, by you or your opponent, you will lose your \(\Delta m\).</li>
+    </ol>
+
+    <p>Since you have much more money than your opponent, you probably will be able to buy more chocolate than him. Is this true no matter \(\Delta m\)? The naive reasoning let you believe that in the end of the game, if you add the total number of chocolates bought, 80% will be yours and only 20% will stay for your friend.</p>
+
+    <p>However, things are not so simple. Imagine the case when \(\Delta m \to 0\). At that point, you and your friend will have almost the same purchase power. Therefore, in the end you will get 50% of the chocolate just like your friend, which is not good for you.</p>
+
+    <p>For the other extreme you can only go up to \(\Delta m = \$80\). At this point, you can buy one candy bar and your friend none. This is good for you, but this is probably not the best. How much more can you buy than your friend in function of \(\Delta m\)? The precise answer is,</p>
+
+    <p>\[
+    100 \left(e^{-0.4/\Delta m} - e^{-1/\Delta m}\right)
+    \]</p>
+
+    <p>You can easily simulate this and check by yourself that this formula fits correctly in the average behavior. I show in the figure below the average for 20 simulations and the behavior of the difference between your candy bars and those of your friend.</p>
+
+<div style="text-align: center;">
+  <img src="urn-game-plot.png" alt="Simulation vs Equation Plot" style="max-width: 400px;" />
+</div>
+
+    <p>But what about a more generic game? If you have \(N\) candy bars, and you start with \(m_y\) money, against \(m_o\) of your opponent. The difference is,</p>
+
+    <p>\[
+    N \left(e^{-2m_o/(N \Delta m)} - e^{-(m_y + m_o)/(N \Delta m)}\right)
+    \]</p>
+
+    <p>I will not demonstrate this formula now, but if you are really curious, you can go to the supplementary material of our paper.</p>
+
+    <p>The most interesting thing is not just the fact that there is an optimal \(\Delta m\) for you, but also that this simple model can be used to understand the final result of an election. This connection will be here in future posts.</p>
+
+    <hr />
+    <p style="font-size: small;">&copy; 2025 Hygor Piaget</p>
+  </div>
+</body>
+</html>
+
